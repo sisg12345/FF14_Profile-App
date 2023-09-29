@@ -12,13 +12,13 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <!-- <img class="d-block w-100" src="https://placehold.jp/30/dd6699/ffffff/300x150.png?text=placeholder+image"> -->
-        <img src="https://placehold.jp/1750x500.png" alt="" class="img-fluid">
+        <img src="https://placehold.jp/1750x500.png" alt="" class="img-fluid w-100">
       </div>
       <div class="carousel-item">
-        <img src="https://placehold.jp/1750x500.png" alt="" class="img-fluid">
+        <img src="https://placehold.jp/1750x500.png" alt="" class="img-fluid w-100">
       </div>
       <div class="carousel-item">
-        <img src="https://placehold.jp/1750x500.png" alt="" class="img-fluid">
+        <img src="https://placehold.jp/1750x500.png" alt="" class="img-fluid w-100">
       </div>
     </div>
     <!-- / カルーセル内枠 -->
