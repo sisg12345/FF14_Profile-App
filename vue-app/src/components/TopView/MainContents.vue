@@ -23,9 +23,9 @@
             <div class="card mb-3">
               <img src="https://picsum.photos/800/400" alt="" class="img-fluid">
               <div class="card-body d-flex justify-content-between">
-                <strong class="col-8 card-title">1号店</strong>
+                <strong class="col-8 col-md-7 card-title">1号店</strong>
                 <Button
-                  class="col-4 m-1 h-100"
+                  class="col-4 col-md-5 m-1 h-100"
                   :text="'詳しく見る'"
                   @click="refModal1.showModal()"
                 />
@@ -38,11 +38,11 @@
             <div class="card mb-3">
               <img src="https://picsum.photos/800/400" alt="" class="img-fluid">
               <div class="card-body d-flex justify-content-between">
-                <div class="col-8 card-title">
+                <div class="col-8 col-md-7 card-title">
                   <strong>2号店</strong>
                 </div>
                 <Button
-                  class="col-4 m-1 h-100"
+                  class="col-4 col-5 m-1 h-100"
                   :text="'詳しく見る'"
                   @click="refModal2.showModal()"
                 />
