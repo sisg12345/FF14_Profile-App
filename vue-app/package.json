@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "jquery": "^3.7.1",
     "vue": "^3.3.4",
     "vue-loader": "^17.2.2",
     "vue-router": "^4.2.5",
