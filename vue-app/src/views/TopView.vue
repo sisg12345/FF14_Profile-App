@@ -1,12 +1,12 @@
 <template>
-  <main>
+  <main role="main">
     <!-- ニュース -->
     <div class="py-2">
-      <NewsSection />
+      <News />
     </div>
     <!-- カルーセル -->
     <div class="py-1">
-      <Carousel />
+      <MainVisual />
     </div>
     <!-- メインコンテンツ -->
     <div class="py-2">
@@ -15,16 +15,16 @@
   </main>
 </template>
 <script>
-import Carousel from '../components/TopView/Carousel.vue'
 import MainContents from '../components/TopView/MainContents.vue'
-import NewsSection from '../components/TopView/NewsSection.vue'
+import MainVisual from '../components/TopView/MainVisual.vue'
+import News from '../components/TopView/News.vue'
 
 export default {
   name: 'Top',
   components: {
-    Carousel,
     MainContents,
-    NewsSection,
+    MainVisual,
+    News,
   },
 }
 </script>

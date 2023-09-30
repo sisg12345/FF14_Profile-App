@@ -11,8 +11,8 @@
             v-for="(info, index) in information"
             :key="index"
           >
-            <dt class="col-md-3">{{ info.date }}</dt>
-            <dt class="col-md-9">{{ info.content }}</dt>
+            <dt class="col-3">{{ info.date }}</dt>
+            <dt class="col-9">{{ info.content }}</dt>
           </dl>
         </div>
       </div>
@@ -21,7 +21,7 @@
 </template>
 <script>
 export default {
-  name: 'NewsSection',
+  name: 'News',
   setup() {
     const information = [
       {date: '2023/09/29', content: '初リリース' },

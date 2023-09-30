@@ -3,7 +3,7 @@
 </template>
 <script>
 export default {
-  name: 'ButtonNormal',
+  name: 'Button',
   props: {
     text: {
       type: String,
