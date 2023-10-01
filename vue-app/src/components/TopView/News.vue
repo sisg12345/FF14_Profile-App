@@ -24,7 +24,7 @@ export default {
   name: 'News',
   setup() {
     const information = [
-      {date: '2023/09/29', content: '初リリース' },
+      {date: '2023/10/01', content: '正式リリース' },
     ]
 
     return {

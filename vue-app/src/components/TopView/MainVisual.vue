@@ -3,9 +3,9 @@
   <Carousel
     :id="'main_visual_carousel'"
     :images="[
-      'https://picsum.photos/1920/450',
-      'https://picsum.photos/1920/450',
-      'https://picsum.photos/1920/450',
+      '/src/assets/images/topView/FF14_tori-cafe-1_1920x600.jpg',
+      '/src/assets/images/topView/FF14_tori-cafe-2_1920x600.jpg',
+      '/src/assets/images/topView/FF14_tori-cafe-3_1920x600.jpg',
     ]"
   />
 </template>

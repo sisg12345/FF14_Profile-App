@@ -27,7 +27,7 @@
           class="carousel-item"
           :class="index === 0 ? 'active' : ''"
         >
-          <img :src="image" alt="" class="img-fluid w-100">  
+          <img :src="image" alt="" class="img-fluid w-100">
         </div>
       </template>
     </div>

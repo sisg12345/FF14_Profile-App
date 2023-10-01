@@ -12,7 +12,7 @@
             <p>🔥店長コメント: <strong>お金ください！！！💰</strong>></p>
           </div>
           <div class="col-md-4">
-            <img src="https://picsum.photos/500/500" alt="" class="img-fluid">
+            <img src="/src/assets/images/topView/FF14_tori-cafe-8_300x300.jpg" alt="" class="img-fluid w-100">
           </div>
         </div>
         <!-- / 上段 -->
@@ -21,7 +21,7 @@
           <div class="col-md-6">
             <!-- カード1 -->
             <div class="card mb-3">
-              <img src="https://picsum.photos/800/400" alt="" class="img-fluid">
+              <img src="/src/assets/images/topView/FF14_tori-cafe-4_800x450.jpg" alt="" class="img-fluid">
               <div class="card-body d-flex justify-content-between">
                 <strong class="col-8 col-md-7 card-title">1号店</strong>
                 <Button
@@ -36,13 +36,11 @@
           <div class="col-md-6">
             <!-- カード2 -->
             <div class="card mb-3">
-              <img src="https://picsum.photos/800/400" alt="" class="img-fluid">
+              <img src="/src/assets/images/topView/FF14_tori-cafe-6_800x450.jpg" alt="" class="img-fluid">
               <div class="card-body d-flex justify-content-between">
-                <div class="col-8 col-md-7 card-title">
-                  <strong>2号店</strong>
-                </div>
+                  <strong class="col-8 col-md-7 card-title">2号店</strong>
                 <Button
-                  class="col-4 col-5 m-1 h-100"
+                  class="col-4 col-md-5 m-1 h-100"
                   :text="'詳しく見る'"
                   @click="refModal2.showModal()"
                 />
@@ -68,7 +66,7 @@
     <!-- モダールボディー -->
     <template #body>
       <p class="text-center">
-        <img src="https://picsum.photos/800/400" alt="" class="img-fluid">
+        <img src="/src/assets/images/topView/FF14_tori-cafe-5_800x450.jpg" alt="" class="img-fluid">
       </p>
       <p>🔥特徴: ガールズバー風</p>
       <p>🔥場所: Yojimbo鯖 ミスト拡張街17区トップスマスト17号室</p>
@@ -89,7 +87,7 @@
     <!-- モダールボディー -->
     <template #body>
       <p class="text-center">
-        <img src="https://picsum.photos/800/400" alt="" class="img-fluid">
+        <img src="/src/assets/images/topView/FF14_tori-cafe-7_800x450.jpg" alt="" class="img-fluid">
       </p>
       <p>🔥特徴: 演奏、ダンスのステージ完備</p>
       <p>🔥場所: Yojimbo鯖 ゴブレットビュート28区28番地</p>
