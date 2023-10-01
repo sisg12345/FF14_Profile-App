@@ -9,7 +9,7 @@
             <p>🔥店主: 基本とり頭</p>
             <p>🔥営業日: 気まぐれ不定期営業</p>
             <p>🔥ルール: 基本なしなんでもOK  ダンス 演奏 可</p>
-            <p>🔥店長コメント: <strong>お金ください！！！💰</strong>></p>
+            <p>🔥店長コメント: <strong>お金ください！！！💰</strong></p>
           </div>
           <div class="col-md-4">
             <img src="/src/assets/images/topView/FF14_tori-cafe-8_300x300.jpg" alt="" class="img-fluid w-100">
