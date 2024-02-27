@@ -1,5 +1,4 @@
 import { createApp } from 'vue'
-// import './style.css' // TODO: デフォルトスタイル定義無効無効, 削除するか検討する必要がある
 import App from './App.vue'
 import router from './router'
 // Bootstrap
