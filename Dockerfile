@@ -4,4 +4,4 @@ WORKDIR /usr/src/app
 
 EXPOSE 8080
 
-RUN apk update && npm install -g npm @vue/cli
+RUN apk update
