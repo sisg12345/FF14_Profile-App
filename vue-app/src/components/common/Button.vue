@@ -1,5 +1,10 @@
 <template>
-  <button type="button" class="btn btn-outline-primary">{{ text }}</button>
+  <button
+    type="button"
+    class="btn btn-outline-primary"
+  >
+    {{ text }}
+  </button>
 </template>
 <script>
 export default {

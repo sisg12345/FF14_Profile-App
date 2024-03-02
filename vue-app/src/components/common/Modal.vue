@@ -1,11 +1,11 @@
 <template>
   <!-- モーダル -->
   <div
+    :id="id"
     class="modal fade"
     tabindex="-1"
     role="dialog"
     aria-hidden="true"
-    :id="id"
   >
     <div
       class="modal-dialog modal-lg modal-dialog-centered"
@@ -17,7 +17,12 @@
           <h5 class="modal-title">
             <slot name="header" />
             </h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -43,6 +48,8 @@
   <!-- / モーダル -->
 </template>
 <script>
+import { ref } from 'vue'
+
 export default {
   name: 'Modal',
   props: {
@@ -57,13 +64,13 @@ export default {
       $(`#${props.id}`).modal('show')
     }
     /**　モーダルを非表示　*/
-    const closeModal =() => {
+    const hideModal =() => {
       $(`#${props.id}`).modal('hide')
     }
 
     return {
       showModal,
-      closeModal,
+      hideModal,
     }
   }
 }

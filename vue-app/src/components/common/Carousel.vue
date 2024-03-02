@@ -27,18 +27,38 @@
           class="carousel-item"
           :class="index === 0 ? 'active' : ''"
         >
-          <img :src="image" alt="" class="img-fluid w-100">
+          <img
+            :src="image"
+            alt=""
+            class="img-fluid w-100"
+          >
         </div>
       </template>
     </div>
     <!-- / カルーセル内枠 -->
     <!-- コントローラー -->
-    <a class="carousel-control-prev" :href="`#${id}`" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <a
+      class="carousel-control-prev"
+      role="button"
+      data-slide="prev"
+      :href="`#${id}`"
+    >
+      <span
+        class="carousel-control-prev-icon"
+        aria-hidden="true"
+      ></span>
       <span class="sr-only">前に戻る</span>
     </a>
-    <a class="carousel-control-next" :href="`#${id}`" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <a
+      class="carousel-control-next"
+      role="button"
+      data-slide="next"
+      :href="`#${id}`"
+    >
+      <span
+        class="carousel-control-next-icon"
+        aria-hidden="true"
+      ></span>
       <span class="sr-only">次に送る</span>
     </a>
     <!-- / コントローラー -->

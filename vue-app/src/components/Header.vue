@@ -9,7 +9,8 @@
           class="navbar-brand"
           to="/"
           @click="toPageTop"
-        >TORI CAFE
+        >
+          TORI CAFE
         </router-link>
         <!-- ドロップダウン -->
         <button
@@ -33,7 +34,8 @@
                 class="nav-link" 
                 to="/"
                 @click="toPageTop"
-              >TOP
+              >
+                TOP
               </router-link>
             </li>
           </ul>
