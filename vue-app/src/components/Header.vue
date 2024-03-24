@@ -20,12 +20,13 @@
           data-target="#navbarCollapse"
           aria-controls="navbarCollapse"
           aria-expanded="false"
-          aria-label="Toggle navigation">
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- ナビゲーションメニュー -->
         <div
-           id="navbarCollapse"
+          id="navbarCollapse"
           class="collapse navbar-collapse"
         >
           <ul class="navbar-nav mr-auto">
